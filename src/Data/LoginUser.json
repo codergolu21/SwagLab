@@ -1,0 +1,12 @@
+[
+  {
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "message" : "Valid"
+},
+  {
+    "username": "Standard-user",
+    "password": "Secret_sauce",
+    "message" : "Invalid"
+  }
+]
