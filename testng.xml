@@ -8,6 +8,8 @@
         <classes>
             <class name="TestComponents.LoginPage">
             </class>
+            <class name="TestComponents.ProductsPage">
+            </class>
         </classes>
     </test>
 </suite>

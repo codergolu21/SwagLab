@@ -35,7 +35,7 @@ public class LoginPage extends BaseTest {
 
         lp.doLogin(input.get("username"),input.get("password"));
         if (input.get("message").equalsIgnoreCase("valid")) {
-            Assert.assertEquals("Product", lp.getHeaderTitleText());
+            Assert.assertEquals("Products", lp.getHeaderTitleText());
         } else {
             Assert.assertEquals("Epic sadface: Username and password do not match any user in this service", lp.getErrorMessage());
             System.out.println(lp.getErrorMessage());
